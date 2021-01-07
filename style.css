@@ -1,16 +1,19 @@
 
 /* Page styling */
 body {
-    background-color: #fffaff;
-
+    background-color: #f2dcf2;
 }
 
 main {
-    background-color: white;
-    font-family: georgia;
+    
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif
     font-size: 18px;
-    padding-top: 50px;
 }
+
+.row {
+    padding: 20px;
+}
+
 
 /* Hyperlinks */
 .links {
@@ -30,6 +33,15 @@ main {
     color: #fa86c4;
 }
 
+/* Navigation bar logo*/
+.img-responsive{
+    max-height: 90px;
+    max-width: 120px;
+    display:block;
+    margin: 0 auto;
+}
+
+
 /* Navigation links */
 .nav-item {
     font-size: larger;
@@ -40,14 +52,14 @@ main {
     border-color:thistle;
 }
 
+
 /* Header */
 header {
     font-size:35px;
-    font-style: italic;
     color: #fa86c4;
     padding-top: 20px;
-    padding-bottom: 20px;
-    border-style: outset;
+    padding-bottom: 30px;
+    margin-left: 10px;
 
 }
 
@@ -92,6 +104,7 @@ button{
     padding: 10px;
     margin-left: 10px;
     margin-right: 10px;
+    margin-bottom: 10px;
     font-size: 25px;
     width: 40px;
     text-align: center;
@@ -115,4 +128,15 @@ button{
 .fa-github {
     background: #e84c30;
     color: white;
+}
+
+footer {
+    position: fixed;
+   left: 0;
+   bottom: 0;
+   width: 100%;
+   background-color:#f2dcf2;
+   color: white;
+   text-align: center;
+}
 }
