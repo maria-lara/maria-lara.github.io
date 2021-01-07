@@ -86,13 +86,6 @@ header {
     margin-right: -10px;
 }
 
-.project-pic2{
-    max-width: 230px;
-    max-height: 300px;
-    float:left;
-    margin-left: 10px;
-    margin-right: -5px;
-}
 
 /* Submit button */
 button{
@@ -139,4 +132,5 @@ footer {
    color: white;
    text-align: center;
 }
-}
+
+    
