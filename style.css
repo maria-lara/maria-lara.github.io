@@ -66,17 +66,21 @@ header {
 
 /* Portfolio page images */
 .project-pic1{
-    max-width: 500px;
+    max-width: 375px;
     max-height: 300px;
     float:left;
     margin-left: 10px;
+    margin-right: -10px;
 }
-.project-pic2{
-    max-width: 500px;
+
+.project-pic{
+    max-width: 230px;
     max-height: 300px;
     float:right;
     margin-left: 10px;
+    margin-right: -5px;
 }
+
 /* Styling Font Awesome social media icons*/
 .fa {
     padding: 10px;
