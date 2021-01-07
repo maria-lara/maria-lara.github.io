@@ -3,8 +3,100 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Portfolio</title>
+
+    <!--Bootstrap CSS link-->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous">
+    <!--Bootstrap JS link-->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-ygbV9kiqUc6oa4msXn9868pTtWMgiQaeYH7/t7LECLbyPA2x65Kgf80OJFdroafW" crossorigin="anonymous"></script>
+    <!--FontAwesome CSS link-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <!--Custom CSS link-->
+    <link href="./style.css" rel="stylesheet">
+
 </head>
+
+<body>
+    <!--Navigation bar-->
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <div class="container-fluid">
+
+            <!--Branding/Name/Logo-->
+          <a class="navbar-brand"  href="./index.html">Maria Lara</a>
+            <!--Toggler for collapsing into a button for mobile responsiveness-->
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+
+          <!--Links to each page on the right-->
+          <div class="collapse navbar-collapse justify-content-end mx-3" id="navbarSupportedContent">
+            <ul class="navbar-nav mr-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="./index.html">About Me</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link active" href="./portfolio.html">Portfolio</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link active" href="./contact.html">Contact</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+
+      <!--Page Content-->
+
+      <!--First row with header-->
+    <main>
+        <section class="container-xs bg-white">
+          <div class="row mt-1">
+            <header>Portfolio</header>
+          </div>
+
+    <!--Second row with articles and images-->
+          <div class ="row-mt-1">
+            <p>You can follow my journey into the development world below by viewing my latest projects below. You can submit comments, ideas, or inquiries to me by visiting the <a href="./contact.html" class="links">Contact</a> page.</p>
+
+            <!--Article for Horiseon Marketing website-->
+                
+                <div class="row mt-5">
+                    <div class="col-md-3">
+                     <a href="https://maria-lara.github.io/horiseon-web/" target="_blank"><img src="./assets/mlscreenshot.png" class="project-pic1" alt="Screenshot of first projects"></a>
+                    </div>
+                    <div class="col-md-9">
+                        <h2>Horiseon Marketing Agency website</h2>
+                        <p>My first project in the full-stack web development course included building an webpage as desired for a marketing agency. This project focused on HTML, CSS, and accessibility standards. What I had learned most was how to create a webpage through GitHub, created a detailed README file, adding in comments for future use, and ensuring CSS is used correctly and efficiently.</p>
+                        <ul>
+                            <li><a href="https://github.com/maria-lara/horiseon-web" target="_blank" class="links">View the GitHub repository</a></li>
+                            <li><a href="https://maria-lara.github.io/horiseon-web/" target="_blank" class="links">Check out the website</a></li>
+                        </ul>
+                    </div>
+                </div>
+        
+            <!--Article for personal project-->
+    
+                <div class="row mt-5">
+                    <div class="col-md-3">
+                     <a href="https://maria-lara.github.io/horiseon-web/" target="_blank"><img src="./assets/mlscreenshot.png" class="project-pic1" alt="Screenshot of first projects"></a>
+                    </div>
+                    <div class="col-md-9">
+                        <h2>Horiseon Marketing Agency website</h2>
+                        <p>My first project in the full-stack web development course included building an webpage as desired for a marketing agency. This project focused on HTML, CSS, and accessibility standards. What I had learned most was how to create a webpage through GitHub, created a detailed README file, adding in comments for future use, and ensuring CSS is used correctly and efficiently.</p>
+                        <ul>
+                            <li><a href="https://github.com/maria-lara/horiseon-web" target="_blank" class="links">View the GitHub repository</a></li>
+                            <li><a href="https://maria-lara.github.io/horiseon-web/" target="_blank" class="links">Check out the website</a></li>
+                        </ul>
+                    </div>
+                </div>
+        
+            </div>
+        </section>
+    </main>
+
+
+</head>
+
 <body>
     
 </body>

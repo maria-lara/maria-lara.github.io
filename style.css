@@ -11,6 +11,24 @@ main {
     padding-top: 50px;
 }
 
+/* Hyperlinks */
+.links {
+    font-weight: bold;
+    color: grey;
+}
+
+.links:visited {
+    color: plum;
+}
+
+.links:hover {
+    color: lightpink;
+}
+
+.links:active {
+    color: #fa86c4;
+}
+
 /* Navigation links */
 .nav-item {
     font-size: larger;
@@ -46,6 +64,19 @@ header {
     margin-right: 20px;
 }   
 
+/* Portfolio page images */
+.project-pic1{
+    max-width: 500px;
+    max-height: 300px;
+    float:left;
+    margin-left: 10px;
+}
+.project-pic2{
+    max-width: 500px;
+    max-height: 300px;
+    float:right;
+    margin-left: 10px;
+}
 /* Styling Font Awesome social media icons*/
 .fa {
     padding: 10px;
