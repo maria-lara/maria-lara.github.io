@@ -8,6 +8,7 @@ main {
     background-color: white;
     font-family: georgia;
     font-size: 18px;
+    padding-top: 50px;
 }
 
 /* Navigation links */
@@ -33,9 +34,17 @@ header {
 
 /* Styling the size of the article container */
 .container-xs {
-    max-width: 900px;
+    max-width: 1000px;
     margin: auto;
 }
+
+/* Index page image */
+.img-thumbnail {
+    max-width: 300px;
+    max-height: 300px;
+    float: left;
+    margin-right: 20px;
+}   
 
 /* Styling Font Awesome social media icons*/
 .fa {
