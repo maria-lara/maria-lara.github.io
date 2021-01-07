@@ -1,0 +1,68 @@
+
+/* Page styling */
+body {
+    background-color: #fffaff;
+}
+
+main {
+    background-color: white;
+    font-family: georgia;
+    font-size: 18px;
+}
+
+/* Navigation links */
+.nav-item {
+    font-size: larger;
+}
+
+/* Styling size, color, and palcement of the toggler*/
+.navbar-toggler {
+    border-color:thistle;
+}
+
+/* Header */
+header {
+    font-size:35px;
+    font-style: italic;
+    color: #fa86c4;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    border-style: outset;
+
+}
+
+/* Styling the size of the article container */
+.container-xs {
+    max-width: 900px;
+    margin: auto;
+}
+
+/* Styling Font Awesome social media icons*/
+.fa {
+    padding: 10px;
+    margin-left: 10px;
+    margin-right: 10px;
+    font-size: 25px;
+    width: 40px;
+    text-align: center;
+    text-decoration: none;
+}
+
+.fa:hover {
+    opacity: 0.7;
+  }
+
+.fa-linkedin {
+    background: #007bb5;
+    color: white;
+}
+
+.fa-instagram {
+    background:#C13584;
+    color: white;
+}
+
+.fa-github {
+    background: #e84c30;
+    color: white;
+}

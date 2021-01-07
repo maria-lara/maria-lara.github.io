@@ -5,52 +5,79 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Maria Lara</title>
-    <!--CSS link-->
+
+  
+    <!--Bootstrap CSS link-->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous">
-    <!--JS link-->
+    <!--Bootstrap JS link-->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-ygbV9kiqUc6oa4msXn9868pTtWMgiQaeYH7/t7LECLbyPA2x65Kgf80OJFdroafW" crossorigin="anonymous"></script>
-    
+    <!--FontAwesome CSS link-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <!--Custom CSS link-->
+    <link href="./style.css" rel="stylesheet">
+
 </head>
 
 <body>
     <!--Navigation bar-->
     <nav class="navbar navbar-expand-lg navbar-light bg-light">
         <div class="container-fluid">
-            <!--Branding/Name/Logo-->
-          <a class="navbar-brand" href="#">Navbar</a>
 
+            <!--Branding/Name/Logo-->
+          <a class="navbar-brand" href="./index.html">Maria Lara</a>
+
+            <!--Toggler for collapsing into a button for mobile responsiveness-->
           <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
           </button>
-          <div class="collapse navbar-collapse" id="navbarSupportedContent">
-            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+
+          <!--Links to each page on the right-->
+          <div class="collapse navbar-collapse justify-content-end mx-3" id="navbarSupportedContent">
+            <ul class="navbar-nav mr-auto mb-2 mb-lg-0">
               <li class="nav-item">
-                <a class="nav-link active" aria-current="page" href="#">Home</a>
+                <a class="nav-link active" aria-current="page" href="./index.html">About Me</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="#">Link</a>
-              </li>
-              <li class="nav-item dropdown">
-                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                  Dropdown
-                </a>
-                <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-                  <li><a class="dropdown-item" href="#">Action</a></li>
-                  <li><a class="dropdown-item" href="#">Another action</a></li>
-                  <li><hr class="dropdown-divider"></li>
-                  <li><a class="dropdown-item" href="#">Something else here</a></li>
-                </ul>
+                <a class="nav-link active" href="./portfolio.html">Portfolio</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Disabled</a>
+                <a class="nav-link active" href="./contact.html">Contact</a>
               </li>
             </ul>
-            <form class="d-flex">
-              <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
-              <button class="btn btn-outline-success" type="submit">Search</button>
-            </form>
           </div>
         </div>
       </nav>
+
+      <!--Page Content-->
+
+      <!--First row with header-->
+      <main>
+        <section class="container-xs bg-white">
+          <div class="row m-1">
+            <header>About Me</header>
+          </div>
+
+      <!--Second row with article and image-->
+        <article class="row m-1">
+          <p> 
+            <img src="#" alt="Maria Lara and her dog, Kaya">
+            Welcome and thank you for visiting my website. 
+            <br>
+            Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.
+            <br><br>
+            More text coming soon.
+          </p>
+
+          <p>Keep up with me on social:</p>
+          <!--Links to social-->
+          <a href="https://www.linkedin.com/in/maria-lara-sf" target="_blank" class="fa fa-linkedin fa-fw"></a>
+          <a href="https://www.instagram.com/__maria.lara__/" target="_blank" class="fa fa-instagram fa-fw"></a>
+          <a href="https://github.com/maria-lara" target="_blank" class="fa fa-github fa-fw"></a>
+          </article>
+
+        </section>
+      </main>
+      
+
 </body>
 </html>
