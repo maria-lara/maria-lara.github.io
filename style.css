@@ -2,6 +2,7 @@
 /* Page styling */
 body {
     background-color: #fffaff;
+
 }
 
 main {
@@ -73,12 +74,17 @@ header {
     margin-right: -10px;
 }
 
-.project-pic{
+.project-pic2{
     max-width: 230px;
     max-height: 300px;
-    float:right;
+    float:left;
     margin-left: 10px;
     margin-right: -5px;
+}
+
+/* Submit button */
+button{
+    margin-top: 20px;
 }
 
 /* Styling Font Awesome social media icons*/
