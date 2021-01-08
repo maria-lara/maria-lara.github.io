@@ -10,3 +10,6 @@ I plan to continute developing this website with more projects, a better design 
 [Click here to view the website](https://maria-lara.github.io/index.html)
 
 # Screenshots
+Homepage ![screenshot of homepage](https://github.com/maria-lara/maria-lara.github.io/blob/main/assets/Screen%20Shot%202021-01-07%20at%206.24.49%20PM.png)
+Portfolio ![screenshot of homepage](https://github.com/maria-lara/maria-lara.github.io/blob/main/assets/Screen%20Shot%202021-01-07%20at%206.25.00%20PM.png)
+Contact Us ![screenshot of homepage](https://github.com/maria-lara/maria-lara.github.io/blob/main/assets/Screen%20Shot%202021-01-07%20at%206.25.16%20PM.png)
